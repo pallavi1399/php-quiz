@@ -1,0 +1,71 @@
+.glow {
+  font-size: 78px;
+  color: #000;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff0000, 0 0 30px #FF0000, 0 0 40px #FF0000, 0 0 50px #fff, 0 0 60px #FF0000, 0 0 80px #000000;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #FF0000, 0 0 50px #FF0000, 0 0 60px #ff0000, 0 0 70px #FF0000, 0 0 80px #000000;
+  }
+}
+
+.glow2 {
+  font-size: 80px;
+  color: #000;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #ff0000, 0 0 30px #FF0000, 0 0 40px #FF0000, 0 0 50px #fff, 0 0 60px #FF0000, 0 0 80px #000000;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #FF0000, 0 0 50px #FF0000, 0 0 60px #ff0000, 0 0 70px #FF0000, 0 0 80px #000000;
+  }
+}
+
+.heads {
+  font-size: 44px;
+  font-family: 'Bitter', serif;
+}
+
+.label {
+  font-size: 22px;
+  font-family: 'Noto Serif', serif;
+}
+
+.head2 {
+  font-size: ;
+  font-family: 'Kalam', cursive;
+}
+
+.result {
+  font-size: 70px;
+  font-family: 'Rock Salt', cursive;
+}
+
+.head3 {
+  font-family: 'Caveat Brush', cursive;
+}
+
+.score {
+  font-size: 50px;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.congo {
+  font-size: 60px;
+  font-family: 'Caveat Brush', cursive;
+}
